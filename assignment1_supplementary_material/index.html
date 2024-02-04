@@ -11,34 +11,31 @@
     </head>
     <body>
       <div class="controls-container">
-        <p class="tune-label">Tune:</p>
-        <div class="tune-drop-down-menu">
-          <span>
+        <div class="tune-section">
+            <p class="tune-label">Tune:</p>
             <select class="tune-selections">
-              <option value="fur-elise">Für Elise</option>
-              <option value="the-godfather">The Godfather</option>
-              <option value="seven-nation-army">Seven Nation Army</option>
-            </select>
-          </span>
-          <div class="record-button-label"><p>Record:</p>
-          <span>
-            <button type="button" class="play-button">
-              <img src="play.png" alt="Play">
-            </button>
-          </span>
-          </div>
-          <div class="record-stop-buttons">
-            <span>
-              <button type="button" class="record-button">
-                <img src="record.png" alt="Record">
+                <option value="fur-elise">Für Elise</option>
+                <option value="the-godfather">The Godfather</option>
+                <option value="seven-nation-army">Seven Nation Army</option>
+                <span>
+                </select>
+                <button type="button" class="play-button">
+                  <img src="play.png" alt="Play">
               </button>
-              <button type="button" class="record-button">
-                <img src="stop.png" alt="Stop">
-              </button>
-            </span>
-          </div>
+                </span>
+
         </div>
-      </div>
+        
+        <div class="record-section">
+            <p class="record-label">Record:</p>
+            <button type="button" class="record-button">
+                <img src="record.png" alt="Record">
+            </button>
+            <button type="button" class="stop-button">
+                <img src="stop.png" alt="Stop">
+            </button>
+        </div>
+    </div>
       <main class="piano">
         <div id="piano-keys">
           <button type="button" class="piano-key white-key" aria-label="C Key">C</button>
@@ -49,7 +46,7 @@
           <button type ="button" class="piano-key white-key" aria-label="F4 Key">F4</button>
           <button type ="button" class="piano-key black-key" aria-label="F Sharp 4 Key">F#4</button>
           <button type ="button" class="piano-key white-key" aria-label="G4 Key">G4</button>
-          <button type ="button" class="piano-key black-key"aria-label="G Sharp 4 Key">G#4</button>
+          <button type ="button" class="piano-key black-key" aria-label="G Sharp 4 Key">G#4</button>
           <button type ="button" class="piano-key white-key" aria-label="A4 Key">A4</button>
           <button type ="button" class="piano-key black-key" aria-label="Bb4 Key">Bb4</button>
           <button type ="button" class="piano-key white-key" aria-label="B4 Key">B4</button>
