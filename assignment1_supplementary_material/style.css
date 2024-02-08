@@ -39,12 +39,8 @@ main {
  .tune-section, .record-section{
     display: flex;
     align-items: center;
-<<<<<<< Updated upstream
-    margin-top: 7px;
-=======
-    margin-bottom: 10px;
-    margin-left: 30px;
->>>>>>> Stashed changes
+
+
 
 }
 .record-section{
@@ -59,30 +55,3 @@ main {
     display: flex;
     align-items: center;
 }
-
-<<<<<<< Updated upstream
-=======
-
-
-.record-section{
-    display: flex;
-    align-items: center;
-    margin-top: -61px;
-    margin-left: 370px;
-    
-}
-
-.tune-label {
-    margin-right: 8px; 
-}
-
-.white-key {
-    height: 150px; 
-}
-
-.black-key{
-    height: 120px;
-    width: 40px;
-
-}
->>>>>>> Stashed changes
