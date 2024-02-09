@@ -52,6 +52,20 @@
     /* justify content spacebetween */
     gap: 10px;
   }
+
+  
+.tune-selections{
+  background-color:#e9e9ed;
+  border-radius:2px;
+}
+
+.play-button img{
+  width: 14px;
+  height: 14px;
+  display: flex;
+  align-items: center;
+}
+
   
   /* piano */
   #piano {
@@ -95,7 +109,8 @@
     color: white;
     background-color: black;
   }
-  
+   
+
   #bk1{
     top: 0;
     left: -210%;
