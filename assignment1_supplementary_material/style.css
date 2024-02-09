@@ -38,6 +38,7 @@ main {
     flex-direction: row;
     width: 28%;
     height: 90%;
+
 }
 
 
@@ -46,6 +47,7 @@ main {
     width: 100%;
     color:white;
     background-color: black;
+
 }
 
 .white-key{
