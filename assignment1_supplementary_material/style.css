@@ -84,13 +84,17 @@ p{
 
 .error{
     display:none;
-    margin-top: 150px;
+    margin-top: 42px;
+    margin-left:66px;
 
 }
 .errortext{
+    font-family: monospace;/*type of letters apear*/
     display:none;
     align-self: center;
     width: 100%;
+    margin-left:119px;
+    margin-top:20px;
 
 }
 
@@ -100,6 +104,8 @@ p{
     }
     .error{
         display:flex;/*here we allow to display the error picture.*/
+        width:467px;
+        height:295px;
     }
     .errortext{ /*here we allow to display the error text.*/
         display:flex;
