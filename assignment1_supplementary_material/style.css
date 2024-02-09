@@ -84,14 +84,21 @@ p{
 
 .error{
     display:none;
+
+}
+.errortext{
+    display:none;
+
 }
 
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 599px) {/*for when screen is 599px and less*/
     main {
-      display:none;
-
+      display:none; /*everything on main does not get displayed.*/
     }
-    
-
-
+    .error{
+        display:flex;/*here we allow to display the error picture.*/
+    }
+    .errortext{ /*here we allow to display the error text.*/
+        display:flex;
+    }
   }
