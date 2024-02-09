@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 main {
@@ -15,8 +15,9 @@ main {
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
+    position: relative;
+    
 }
-
 
 
 .controls-container {
@@ -28,13 +29,14 @@ main {
 .white-keys{
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width: 78%;
     height: 90%;
 }
 .black-keys{
+    position: absolute;
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width: 28%;
     height: 90%;
 }
 
@@ -47,6 +49,7 @@ main {
 }
 
 .white-key{
+    
     height: 96px;
     width: 100%;
     color:#000000;
@@ -70,11 +73,7 @@ main {
 
 
 }
-.record-section{
-    display: flex;
-    align-items: center;
-    margin-left: 100px;
-}
+
 
 .play-button img{
     width: 10px;
