@@ -1,26 +1,40 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 main {
     display: flex;
     flex-direction: column;
-    padding-top: 2px;
-    padding-left: 40px;
+    /*margin: 0;
+    padding: 0;*/
+    box-sizing: border-box;
 }
 
+.controls-container{
+    height: 45px;
+}
 
-.piano {
+.tune-section, .record-section{
+    margin: 0;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    margin-top: 200px;
+    height: 25px; /* Adjust as needed */
+    margin-left: 100px;    
 }
 
+.tune-selections{
+    border-radius: 5px;
+    background-color: #979797;/* ------------litur her vitlaus think*/
+}
 
+p.tune-label, p.record-label{
+    font-family: Arial, Helvetica, sans-serif;
+    border-right:5px;
+}
 
-.controls-container {
+#piano {
+    width: 778px;
+    height: 100px;
+    flex-direction: row;
+}
+
+.controls-container{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -36,18 +50,34 @@ main {
     
 }
 
- .tune-section, .record-section{
-    display: flex;
-    align-items: center;
-
-
-
+button{
+    border: solid #979797 2px;
 }
-.record-section{
-    display: flex;
-    align-items: center;
-    margin-left: 120px;
+
+.white-key{
+    height: 96px;
+    width: 75px;
+    color:#000000;
+    background-color: #ffffff;
 }
+
+.black-key{
+    height: 76px;
+    width: 43px;
+    color:white;
+    background-color: black;
+}
+
+
+/*
+
+
+
+    
+    
+}*/
+/*
+
 
 .play-button img{
     width: 10px;
@@ -55,3 +85,23 @@ main {
     display: flex;
     align-items: center;
 }
+
+
+
+.record-section{
+    display: flex;
+    align-items: center;
+    margin-top: -61px;
+    margin-left: 370px;
+    
+}
+
+.tune-label {
+    margin-right: 8px; /* Adjust the spacing as needed 
+}
+
+
+
+
+
+} */
