@@ -16,7 +16,6 @@ main {
     align-items: center;
     margin-top: 20px;
     position: relative;
-    
 }
 
 
@@ -26,35 +25,62 @@ main {
     align-items: center;
 }
 
-.white-keys{
+.white-keys {
     display: flex;
-    flex-direction: row;
+    position: relative;
     width: 78%;
     height: 90%;
 }
-.black-keys{
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    width: 28%;
-    height: 90%;
+
+.white-key{
+    height: 96px;
+    width: 100%;
+    color:#000000;
+    background-color: #ffffff;
 }
 
 
+.black-keys {
+    position: absolute;
+    top: 0;
+    display: flex;
+    z-index: 2;
+    align-items: flex-start;
+}
+
 .black-key{
+    position: relative;
     height: 76px;
     width: 100%;
     color:white;
     background-color: black;
 }
 
-.white-key{
-    
-    height: 96px;
-    width: 100%;
-    color:#000000;
-    background-color: #ffffff;
+
+
+
+
+
+
+.black-keys-left, .black-keys-middle, .black-keys-right {
+
+    display: flex;
+    flex-direction: row;
+    height: 90%;
 }
+
+.black-keys-left {
+    margin-right: 200%;
+}
+
+.black-keys-middle{
+    align-items: middle;
+}
+
+.black-keys-right{
+    margin-left: 20%;
+}
+
 .control-btn img{
     width: 10px;
     height: 10px;
