@@ -68,6 +68,7 @@ button{
 }
 
 .black-key{
+    overflow:hidden;
     height: 76px;
     width: 43px;
     color:white;
