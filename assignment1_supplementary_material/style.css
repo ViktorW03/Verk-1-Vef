@@ -84,10 +84,13 @@ p{
 
 .error{
     display:none;
+    margin-top: 150px;
 
 }
 .errortext{
     display:none;
+    align-self: center;
+    width: 100%;
 
 }
 
