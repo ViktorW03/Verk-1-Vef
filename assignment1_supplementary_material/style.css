@@ -4,6 +4,7 @@
 
 }
 
+
 p{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -49,8 +50,8 @@ p{
     background-color: #ffffff;
 }
 .control-btn img{
-    width: 10px;
-    height: 10px;
+    width: 14px;
+    height: 14px;
     display: flex;
     align-items: center   
 }
@@ -65,6 +66,7 @@ p{
 
 .tune-selections{
     background-color:#e9e9ed;
+    border-radius:2px;
 }
 
 .record-section{
