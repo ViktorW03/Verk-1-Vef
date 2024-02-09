@@ -1,24 +1,16 @@
-main {
-    display: flex;
-    flex-direction: column;
-    /*margin: 0;
-    padding: 0;*/
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-
 main {
     display: flex;
     flex-direction: column;
     align-items:auto;
-
-
-p.tune-label, p.record-label{
-    font-family: Arial, Helvetica, sans-serif;
-    border-right:5px;
 }
 
-#piano {
 
+#piano {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,7 +23,6 @@ p.tune-label, p.record-label{
     display: flex;
     flex-direction: row;
     align-items: center;
-
 }
 
 .white-keys{
@@ -69,7 +60,6 @@ p.tune-label, p.record-label{
     
 }
 
-
  .tune-section, .record-section{
     display: flex;
     align-items: center;
@@ -79,42 +69,6 @@ p.tune-label, p.record-label{
 
 
 
-
-button{
-    border: solid #979797 2px;
-}
-
-.white-key{
-    height: 96px;
-    width: 75px;
-    color:#000000;
-    background-color: #ffffff;
-}
-
-.black-key{
-    height: 76px;
-    width: 43px;
-    color:white;
-    background-color: black;
-}
-
-
-/*
-
-
-
-    
-    
-}*/
-/*
-
-
-.play-button img{
-    width: 10px;
-    height: 10px;
-    display: flex;
-    align-items: center;
-
 }
 .record-section{
     display: flex;
@@ -122,21 +76,9 @@ button{
     margin-left: 100px;
 }
 
-
 .play-button img{
     width: 10px;
     height: 10px;
     display: flex;
     align-items: center;
 }
-=======
-.tune-label {
-    margin-right: 8px; /* Adjust the spacing as needed 
-}
-
-
-
-
-
-} */
-
