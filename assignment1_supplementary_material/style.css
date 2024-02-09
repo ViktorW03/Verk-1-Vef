@@ -4,7 +4,9 @@
 
 }
 
-
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 #piano {
     display: flex;
@@ -61,6 +63,10 @@
     margin-left:100px;
 }
 
+.tune-selections{
+    background-color:#e9e9ed;
+}
+
 .record-section{
     display: flex;
     align-items: center;
@@ -68,8 +74,8 @@
 }
 
 .play-button img{
-    width: 10px;
-    height: 10px;
+    width: 14px;
+    height: 14px;
     display: flex;
     align-items: center;
 }
